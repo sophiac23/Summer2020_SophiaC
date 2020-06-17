@@ -26,11 +26,12 @@ public class dataTypes {
         int myInt = keyboard.nextInt();
         System.out.print("Double: ");
         double myDouble = keyboard.nextDouble();
-        System.out.print("Phrase: ");
+        keyboard.nextLine();
+        System.out.print("Phrase: Greenhill ");
         String myString = keyboard.nextLine();
-        System.out.printf("\n %2d" ,myInt +i);
-        System.out.printf("\n %3.1f" ,myDouble +d);
-        System.out.printf("\n %2s" ,s + myString);
+        System.out.printf("\n %3d" ,myInt +i);
+        System.out.printf("\n %2.1f" ,myDouble +d);
+        System.out.printf("\n %1s" ,s + " " + myString);
 
     }
 
