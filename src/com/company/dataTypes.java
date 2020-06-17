@@ -1,14 +1,17 @@
 package com.company;
 import java.util.*;
-/*Import scanner
+/*
+Sophia Chao
+        Import scanner
         Create new scanner object
         Create the main
         Declare and initialize variables integer i and double d
         String s = “Greenhill”
+        Create variables and create methods for each (integer, double, and string)
         Print “Type your inputs below”
-        Get user input for integer, decimal, and string (Finish the sentence: Greenhill... using the scanner keyboard
+        Get user input for integer, decimal, and string (Finish the sentence: Greenhill...) using the scanner keyboard
         Double integer = user input for integer + i
-        Print on new line d + double variable with one decimal place (.1)
+        Print on new line d + double variable with one decimal place (.1) using System.out.printf
         Print Greenhill… (user input)
  */
 
@@ -17,24 +20,18 @@ public class dataTypes {
     public static void main (String[] args) {
         int i =4;
         double d =4.0;
-        String s = "Greenhill";
-        System.out.println("Type your inputs below: ");
-        integer();
-        decimal();
-        phrase();
-
-
-    }
-    public static void integer() {
+        String s ="Greenhill";
+        System.out.println("Type your inputs here:");
         System.out.print("Integer: ");
-        String integer = keyboard.nextLine();
-    }
-    public static void decimal() {
-        System.out.print("Decimal: ");
-        String decimal = keyboard.nextLine();
-    }
-    public static void phrase() {
+        int myInt = keyboard.nextInt();
+        System.out.print("Double: ");
+        double myDouble = keyboard.nextDouble();
         System.out.print("Phrase: ");
-        String phrase = keyboard.nextLine();
+        String myString = keyboard.nextLine();
+        System.out.printf("\n %2d" ,myInt +i);
+        System.out.printf("\n %3.1f" ,myDouble +d);
+        System.out.printf("\n %2s" ,s + myString);
+
     }
+
 }
