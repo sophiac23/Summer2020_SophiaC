@@ -15,19 +15,20 @@ public class Challengeonerocket {
     }
     public static void Top() //this method prints the top and bottom of the rocket
     {
-        System.out.println("   /\\   ");
-        System.out.println("  /  \\  ");
-        System.out.println(" /    \\ ");}
+        System.out.println("    /\\   ");
+        System.out.println("   /  \\   ");
+        System.out.println("  /    \\  ");
+        System.out.println(" /      \\ ");}
     public static void Boxone() {
-        System.out.println("+------+");
-        System.out.println("|      |");
-        System.out.println("|      |");
-        System.out.println("+------+");
+        System.out.println("+--------+");
+        System.out.println("|        |");
+        System.out.println("|        |");
+        System.out.println("+--------+");
     }
     public static void Boxtwo() {
-        System.out.println("|      |");
-        System.out.println("|      |");
-        System.out.println("+------+");
+        System.out.println("|        |");
+        System.out.println("|        |");
+        System.out.println("+--------+");
     }
 }
 
